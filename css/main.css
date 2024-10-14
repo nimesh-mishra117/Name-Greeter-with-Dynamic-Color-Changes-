@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* margin-top: 20px; */
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+    transition: all .3s ease-in-out;
+}
+
+.main:hover {
+    box-shadow: 15px 15px 5px black;
+
+}
+
+.con h1,
+button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    cursor: pointer;
+    padding: 10px;
+    transition: all .3s ease-in-out;
+    /* width: 200px; */
+}
+button:hover{
+    box-shadow: 10px 10px 5px gray;
+}
+input {
+    padding: 10px;
+    transition: all .3s ease-in-out;
+}
+input:hover{
+    box-shadow:inset 5px 5px 10px gray;
+}
